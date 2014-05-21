@@ -1,9 +1,32 @@
+.contenido
+{
+	background: #f4f7fb;
+	padding-right: 15px;
+	padding-top: 1em;
+}
+.features
+{
+	padding: 1em;
+}
+footer
+{
+	background: #3c9cdc;
+	bottom: 0;
+	color: #fff;
+	padding: 0.5em;
+	position: fixed;
+	width: 100%;
+}
 html, body { 
-    height: 100%;
     width: 100%;
 }
+p
+{
+	color: #fff;
+	font-size: 1.2em;
+}
 #login_button {
-	font-size: 24px;
+	font-size: 1.5em;
 }
 .video-section {
 	height: 100%;
@@ -15,7 +38,7 @@ html, body {
 	background-color: rgba(71, 71, 71, 0.59);
 	/*padding: 110px 0 32px;*/
 	/*min-height: 496px; */
-	height: 100%;
+	width: 100%;
 	/* Incase of overlay problems just increase the min-height*/
 }
 
