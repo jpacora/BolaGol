@@ -23,7 +23,12 @@
   <script>
   $(document).ready(function () {
 
-    $(".player").mb_YTPlayer();
+    var anchura = $( window ).width();
+
+    if(anchura > 767) {
+      $(".player").mb_YTPlayer();
+    }
+
 
   });
   </script>
