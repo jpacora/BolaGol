@@ -10,12 +10,20 @@
 }
 footer
 {
-	background: #3c9cdc;
+	/*background: #3c9cdc;*/
+	background: #bdc3c7;
 	bottom: 0;
-	color: #fff;
+	color: #2ecc71;
 	padding: 0.5em;
 	position: fixed;
 	width: 100%;
+}
+#copyright-footer {
+	top: 3px;
+	font-size: 1em;
+}
+#copyright-footer a {
+	text-decoration: none;
 }
 html, body { 
     width: 100%;
@@ -64,5 +72,9 @@ p
 	font-weight:lighter;
 	margin: 0px auto 15px;
 }
-.video-section .buttonBar{display:none;}
-.player {font-size: 1px;}
+.video-section .buttonBar{
+	display:none;
+}
+.player {
+	font-size: 1px;
+}
